@@ -194,7 +194,7 @@ section{
     gap: 1rem;
     margin-top: 2rem;
   }
-  .services-box {
+  .project-card {
     padding: 20px;
     width: 260px;
     display: flex;
@@ -205,35 +205,35 @@ section{
     border-bottom: 2px solid var(--main-color);
     box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
   }
-  .services-box:hover{
+  .project-card:hover{
    background-color: teal;
   }
-  .services-box img{
+  .project-card img{
     width: 30%;
     height: 50%;
   }
-  .services-box h3 {
+  .project-card h3 {
     font-size: 1rem;
     font-weight: 600;
     margin: 0.7rem 0 0.4rem;
   }
-  .services-box:hover h3{
+  .project-card:hover h3{
     color: #fff;
   }
-  .services-box .bx {
+  .project-card .bx {
     padding-top: 2rem;
     font-size: 54px;
     color: var(--main-color);
   }
-  .services-box:hover .bx{
+  .project-card:hover .bx{
     color: #22cf91;
   }
-  .services-box a {
+  .project-card a {
     color: var(--main-color);
     font-size: var(--p-font);
     font-weight: 500;
   }
-  .services-box:hover a{
+  .project-card:hover a{
     color: #8b8a8f;
   }
 
