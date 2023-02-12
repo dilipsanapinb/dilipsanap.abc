@@ -54,16 +54,16 @@
     font-weight: 600;
     color: var(--text-color);
   }
-  .navbar {
+  #nav-menu {
     display: flex;
   }
-  .navbar a {
+  #nav-menu a {
     font-size: 1rem;
     padding: 10px 20px;
     color: var(--text-color);
     font-weight: 500;
   }
-  .navbar a:hover {
+  #nav-menu a:hover {
     color: var(--hover);
   }
   #menu-icon {
@@ -89,7 +89,7 @@ section{
     background: var(--main-color);
 }
 
-.home{
+#home{
     position: relative;
     width:100% ;
     min-height: 100vh;
@@ -151,7 +151,7 @@ section{
     font-size: var(--p-font);
     color: rgb(2, 165 ,70);
 }
-
+/* About Section */
 .about-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
