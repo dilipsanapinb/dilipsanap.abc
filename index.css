@@ -17,6 +17,7 @@
     --big-font:3.2rem;
     --medium-font :1.8rem;
     --pp-font:0.94rem;
+    --btn-color:#ed0331;
 
 }
 /* ====navbar==== */
@@ -71,6 +72,20 @@
     cursor: pointer;
     z-index: 10001;
     display: none;
+  }
+  #res_btn{
+    background: var(--btn-color);
+    color: var(--bg-color);
+    
+    border-radius: 10px;
+     /* display: flex; 
+    flex-direction: row;
+    justify-content: space-between;  */
+  }
+  #res_btn_arr{
+    position: ;
+    /* margin-top: 5px; */
+    /* margin-left: 5px; */
   }
 
 
