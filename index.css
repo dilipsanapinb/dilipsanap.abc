@@ -175,6 +175,7 @@ section{
 }
 .about-img img{
       width: 80%;
+      height: 80%;
       border-radius: 0.5rem;
 }
 .about-text p{
