@@ -211,7 +211,7 @@ section{
   }
   .skills-card {
     padding: 20px;
-    width: 200px;
+    width: 230px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,6 +222,9 @@ section{
   }
   .skills-card:hover{
    background-color: teal;
+  }
+  .skills-card-img{
+    height: 70%;
   }
   .skills-card-img img{
     width: 60%;
