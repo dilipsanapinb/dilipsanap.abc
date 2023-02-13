@@ -200,7 +200,12 @@ section{
     font-weight:400 ;
     margin-left: 1rem;
 }
-
+#contact-github a{
+  color: black;
+}
+#contact-linkedin a{
+  color: black;
+}
 /* skills-1 */
 
 .skills-content {
@@ -229,7 +234,7 @@ section{
   }
   .skills-card-img img{
     width: 60%;
-    height: 90%;
+    height: 100%;
   }
   .skills-card h3 {
     font-size: 1rem;
