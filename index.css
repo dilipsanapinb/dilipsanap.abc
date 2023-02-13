@@ -202,16 +202,16 @@ section{
 
 /* skills-1 */
 
-.services-content {
+.skills-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
   }
-  .project-card {
+  .skills-card {
     padding: 20px;
-    width: 260px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -220,88 +220,47 @@ section{
     border-bottom: 2px solid var(--main-color);
     box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
   }
-  .project-card:hover{
+  .skills-card:hover{
    background-color: teal;
   }
-  .project-card img{
-    width: 30%;
-    height: 50%;
+  .skills-card-img img{
+    width: 60%;
+    height: 90%;
   }
-  .project-card h3 {
+  .skills-card h3 {
     font-size: 1rem;
     font-weight: 600;
     margin: 0.7rem 0 0.4rem;
   }
-  .project-card:hover h3{
+  .skills-card:hover h3{
     color: #fff;
   }
-  .project-card .bx {
+  .skills-card .bx {
     padding-top: 2rem;
     font-size: 54px;
     color: var(--main-color);
   }
-  .project-card:hover .bx{
+  .skills-card:hover .bx{
     color: #22cf91;
   }
-  .project-card a {
+  .skills-card a {
     color: var(--main-color);
     font-size: var(--p-font);
     font-weight: 500;
   }
-  .project-card:hover a{
+  .skills-card:hover a{
     color: #8b8a8f;
   }
 
   /* skills-2 */
-  .services-content1 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 2rem;
-  }
-  .services-box1 {
-    padding: 20px;
-    width: 260px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-radius: 0.5rem;
-    border-bottom: 2px solid var(--main-color);
-    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
-  }
-  .services-box1:hover{
-   background-color: teal;
-  }
-  .services-box1 img{
+
+
+
+  #services-box1_img{
     width: 40%;
     height: 80%;
   }
-  .services-box1 h3 {
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 0.7rem 0 0.4rem;
-  }
-  .services-box1:hover h3{
-    color: #fff;
-  }
-  .services-box1 .bx {
-    padding-top: 2rem;
-    font-size: 54px;
-    color: var(--main-color);
-  }
-  .services-box1:hover .bx{
-    color: #22cf91;
-  }
-  .services-box1 a {
-    color: var(--main-color);
-    font-size: var(--p-font);
-    font-weight: 500;
-  }
-  .services-box1:hover a{
-    color: #8b8a8f;
-  }
+
 
 
   /* projects */
